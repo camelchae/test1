@@ -1,2 +1,8 @@
 make feature 1 ...
   from feature 2
+  
+  
+  
+  
+  
+  add feature 2
