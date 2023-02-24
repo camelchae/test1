@@ -2,7 +2,7 @@ B
 
 B
 B
-BB
+bb
 BBB
 from first
 First
