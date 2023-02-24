@@ -2,12 +2,12 @@ B
 
 B
 B
-BB
+bb
 BBB
 
-First
+first
 Second 2
-Third 3
+third 3
 from second
 
 thirdthird
