@@ -12,6 +12,17 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
+    InitializeUI();
+    InitializeConnect();
+}
+
+MainWindow::~MainWindow()
+{
+    delete ui;
+}
+
+void MainWindow::InitializeUI()
+{
     m_pViewerWidget = new CES2DViewer(this);
 
     if(m_pViewerWidget)
@@ -36,11 +47,18 @@ MainWindow::MainWindow(QWidget *parent)
 
         setCentralWidget(m_pViewerWidget);
     }
-
 }
 
-MainWindow::~MainWindow()
+void MainWindow::InitializeConnect()
 {
-    delete ui;
+    if(m_pViewerWidget)
+    {
+        connect(m_pViewerWidget, SIGNAL(SignalTagFileSaved(QString)), this, SLOT(SlotTagFileSaved(QString)));
+    }
+}
+
+void MainWindow::SlotTagFileSaved(QString strTagFilename)
+{
+    qDebug() << Q_FUNC_INFO << ":" << strTagFilename;
 }
 

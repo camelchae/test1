@@ -19,6 +19,14 @@ public:
     ~MainWindow();
 
 private:
+    void InitializeUI();
+    void InitializeConnect();
+
+private slots:
+    void SlotTagFileSaved(QString strTagFilename);
+
+
+private:
     Ui::MainWindow *ui;
     QWidget *m_pViewerWidget;
 };
