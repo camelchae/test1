@@ -11,3 +11,4 @@ ES2DViewerClient/moc_*.*
 *.dll
 ES2DViewerClient/translations/
 ES2DViewerClient/ui_*.h
+*.tag
