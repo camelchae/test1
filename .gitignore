@@ -1,0 +1,13 @@
+*.stash
+ES2DViewerClient/D3Dcompiler_47.dll
+*.exe
+*.ilk
+*.pdb
+*.user
+*.png
+*.obj
+ES2DViewerClient/Makefile
+ES2DViewerClient/moc_*.*
+*.dll
+ES2DViewerClient/translations/
+ES2DViewerClient/ui_*.h
