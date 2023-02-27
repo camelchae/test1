@@ -32,6 +32,8 @@ FORMS += \
 INCLUDEPATH += $${ES_PRODUCT_DIR}/common/
 INCLUDEPATH += $${ES_PRODUCT_DIR}/inc/
 
+PRE_TARGETDEPS += $${ES_PRODUCT_DIR}/common/ESViewerCommon/ES2DViewer/lib/$${VT_LIB_BUILD_TARGET}/ES2DViewer.lib
+
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
