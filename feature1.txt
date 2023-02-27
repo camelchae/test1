@@ -1,9 +1,0 @@
-make feature 1 ...
-  from feature 2
-  
-add feature 1
-  
-  
-  
-  
-  add feature 2
