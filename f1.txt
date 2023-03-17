@@ -1,6 +1,6 @@
 f1 svn12 3
 
-c3 ff3
+c3 ff3 ff3
 add c2
 c2 ff2
 add c2
