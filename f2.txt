@@ -4,6 +4,7 @@ f2 from f2
 
 
 chapter 1
+new nf1 function()
 
 chapter 2
 
