@@ -1,4 +1,4 @@
-f2 from f2
+f2 from f2 r2
   add from f2-1
   add from f2-1 second
 
