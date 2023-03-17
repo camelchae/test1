@@ -6,7 +6,7 @@ f2 from f2
 chapter 1
 
 chapter 2
-nf2 funciton
+nf2 funciton ()
 chapter 3
 
 chapter 4
