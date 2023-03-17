@@ -2,6 +2,7 @@ f2 from f2
   add from f2-1
   add from f2-1 second
 
+svn changed 1
 
 chapter 1
 new nf1 function()
