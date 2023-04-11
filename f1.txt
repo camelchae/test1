@@ -8,3 +8,4 @@ add c3
 c1
 
 add from a1
+from w1
